@@ -9,7 +9,7 @@
 ?>
 
 <header class="mx-auto max-w-screen-lg px-3 py-6 flex items-center justify-between border-b border-gray-700">
-    <div class="font-bold text-xl font-mono text-cyan-600 hover:text-cyan-400 transition duration-300 cursor-pointer">
+    <div class="font-bold text-xl text-cyan-600 hover:text-cyan-400 transition duration-300 cursor-pointer">
         Meu Portfólio
     </div>
     <nav>
