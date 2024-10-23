@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonte Nunito -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-slate-900 text-gray-200 font-nunito">
+    <!-- Header -->
+    <header class="mx-auto max-w-screen-lg px-3 py-6 flex items-center justify-between border-b border-gray-700">
+        <div class="font-bold text-xl text-cyan-600 hover:text-cyan-400 transition duration-300 cursor-pointer">
+            Meu Portfólio
+        </div>
+        <nav>
+            <ul class="flex gap-x-6 font-medium">
+                <li><a href="#projetos" class="hover:text-cyan-400 transition duration-300">Projetos</a></li>
+                <li><a href="https://github.com/Polese-e" class="hover:text-cyan-400 transition duration-300">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/polese-e/" class="hover:text-cyan-400 transition duration-300">Linkedin</a></li>
+                <li><a href="https://wa.me/qr/PX244DM2FE7IG1" class="hover:text-cyan-400 transition duration-300">WhatsApp</a></li>
+                <li><a href="https://www.instagram.com/polese_e/" class="hover:text-cyan-400 transition duration-300">Instagram</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="mx-auto max-w-screen-lg px-3 py-6">
+        <!-- Seção Hero -->
+        <section class="flex flex-col-reverse md:flex-row items-center gap-x-10">
+            <div class="w-full md:w-2/3 my-12" data-aos="fade-right">
+                <h1 class="text-4xl font-bold mb-4">Olá, meu nome é Enzo!</h1>
+                <p class="text-xl leading-7 mb-6">
+                    Sou um desenvolvedor de software autodidata, apaixonado por aprender e resolver problemas de forma
+                    criativa, sempre buscando novos desafios e oportunidades para crescer profissionalmente.
+                </p>
+                <ul class="flex gap-x-6 mt-4">
+                    <li>
+                        <a href="https://www.linkedin.com/in/polese-e/" target="_blank">
+                            <img src="assets/linkedin.png" alt="Linkedin Logo"
+                                class="h-8 hover:scale-125 transition-transform duration-300" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Polese-e" target="_blank">
+                            <img src="assets/github.png" alt="Github Logo"
+                                class="h-8 hover:scale-125 transition-transform duration-300" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/qr/PX244DM2FE7IG1" target="_blank">
+                            <img src="assets/whatsapp.png" alt="WhatsApp Logo"
+                                class="h-8 hover:scale-125 transition-transform duration-300" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/polese_e/" target="_blank">
+                            <img src="assets/instagram.png" alt="Instagram Logo"
+                                class="h-8 hover:scale-125 transition-transform duration-300" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-full md:w-1/3 flex items-center justify-center mb-12 md:mb-0" data-aos="fade-left">
+                <img src="assets/Perfil.png" alt="Foto de Perfil"
+                    class="rounded-full w-64 h-64 object-cover hover:scale-110 transition-transform duration-500 shadow-lg" />
+            </div>
+        </section>
+
+        <!-- Seção Projetos -->
+        <section id="projetos">
+            <h2 class="text-3xl font-bold mb-6 text-center" data-aos="fade-up">Meus Projetos</h2>
+
+            <!-- Projeto 1 -->
+            <div class="mt-5">
+                <div
+                    class="bg-slate-800 rounded-lg p-6 flex flex-col md:flex-row items-center hover:shadow-xl hover:scale-105 transition-transform duration-300"
+                    data-aos="zoom-in">
+                    <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                        <a href="https://github.com/Polese-e/PC-Store" target="_blank">
+                            <img src="../img/pc-store.webp" alt="PC Store"
+                                class="rounded-lg shadow-lg hover:scale-110 hover:shadow-2xl transition-transform duration-500" />
+                        </a>
+                    </div>
+                    <div class="w-full md:w-3/4 md:pl-6">
+                        <div class="flex flex-col md:flex-row justify-between mb-4">
+                            <h3 class="font-semibold text-2xl mb-2 md:mb-0">
+                                <a href="https://github.com/Polese-e/PC-Store" target="_blank"
+                                    class="hover:text-cyan-400 transition duration-300">
+                                    PC Store
+                                </a>
+                                <span class="text-sm text-gray-400 italic">
+                                    (em desenvolvimento)
+                                </span>
+                            </h3>
+                            <div class="flex flex-wrap gap-2">
+                                <a href="https://www.php.net/docs.php" target="_blank" rel="noopener noreferrer"
+                                    class="bg-indigo-400 text-indigo-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-indigo-500 hover:text-white hover:scale-110 transition duration-300">
+                                    PHP
+                                </a>
+                                <a href="https://laravel.com/docs" target="_blank" rel="noopener noreferrer"
+                                    class="bg-red-400 text-red-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-red-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Laravel
+                                </a>
+                                <a href="https://laravel.com/docs/blade" target="_blank" rel="noopener noreferrer"
+                                    class="bg-pink-400 text-pink-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-pink-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Blade
+                                </a>
+                                <a href="https://getbootstrap.com/docs" target="_blank" rel="noopener noreferrer"
+                                    class="bg-violet-400 text-violet-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-violet-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Bootstrap
+                                </a>
+                                <a href="https://jetstream.laravel.com/" target="_blank" rel="noopener noreferrer"
+                                    class="bg-sky-400 text-sky-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-sky-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Jetstream
+                                </a>
+                                <a href="https://dev.mysql.com/doc/" target="_blank" rel="noopener noreferrer"
+                                    class="bg-blue-400 text-blue-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-blue-500 hover:text-white hover:scale-110 transition duration-300">
+                                    MySQL
+                                </a>
+                            </div>
+                        </div>
+                        <p class="leading-7 text-gray-300">
+                            PC Store é uma loja virtual de componentes de PC inspirada na loja Terabyte. O sistema
+                            oferece funcionalidades como gerenciamento de produtos, carrinho de compras e exibição
+                            detalhada dos itens, proporcionando uma experiência intuitiva e prática para os usuários.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="mt-5">
+                <div
+                    class="bg-slate-800 rounded-lg p-6 flex flex-col md:flex-row items-center hover:shadow-xl hover:scale-105 transition-transform duration-300"
+                    data-aos="zoom-in">
+                    <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                        <a href="https://github.com/Polese-e/FreelanceHours" target="_blank">
+                            <img src="../img/freelance-hours.webp" alt="FreelanceHours"
+                                class="rounded-lg shadow-lg hover:scale-110 hover:shadow-2xl transition-transform duration-500" />
+                        </a>
+                    </div>
+                    <div class="w-full md:w-3/4 md:pl-6">
+                        <div class="flex flex-col md:flex-row justify-between mb-4">
+                            <h3 class="font-semibold text-2xl mb-2 md:mb-0">
+                                <a href="https://github.com/Polese-e/FreelanceHours" target="_blank"
+                                    class="hover:text-cyan-400 transition duration-300">
+                                    FreelanceHours
+                                </a>
+                                <span class="text-sm text-gray-400 italic">
+                                    (finalizado em 2024)
+                                </span>
+                            </h3>
+                            <div class="flex flex-wrap gap-2">
+                                <a href="https://www.php.net/docs.php" target="_blank" rel="noopener noreferrer"
+                                    class="bg-indigo-400 text-indigo-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-indigo-500 hover:text-white hover:scale-110 transition duration-300">
+                                    PHP
+                                </a>
+                                <a href="https://laravel.com/docs" target="_blank" rel="noopener noreferrer"
+                                    class="bg-red-400 text-red-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-red-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Laravel
+                                </a>
+                                <a href="https://laravel-livewire.com/docs" target="_blank" rel="noopener noreferrer"
+                                    class="bg-teal-400 text-teal-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-teal-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Livewire
+                                </a>
+                                <a href="https://tailwindcss.com/docs" target="_blank" rel="noopener noreferrer"
+                                    class="bg-cyan-400 text-cyan-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-cyan-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Tailwind
+                                </a>
+                                <a href="https://www.sqlite.org/docs.html" target="_blank" rel="noopener noreferrer"
+                                    class="bg-blue-400 text-blue-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-blue-500 hover:text-white hover:scale-110 transition duration-300">
+                                    SQLite
+                                </a>
+                            </div>
+                        </div>
+                        <p class="leading-7 text-gray-300">
+                            FreelanceHours é uma plataforma onde freelancers podem encontrar e gerenciar projetos de
+                            tecnologia. Usuários podem visualizar projetos disponíveis, categorizados por tecnologias
+                            usadas, e enviar suas propostas para participar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="mt-5">
+                <div
+                    class="bg-slate-800 rounded-lg p-6 flex flex-col md:flex-row items-center hover:shadow-xl hover:scale-105 transition-transform duration-300"
+                    data-aos="zoom-in">
+                    <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                        <a href="https://github.com/Polese-e/HDC-Events" target="_blank">
+                            <img src="../img/hdc-events.webp" alt="HDC Events"
+                                class="rounded-lg shadow-lg hover:scale-110 hover:shadow-2xl transition-transform duration-500" />
+                        </a>
+                    </div>
+                    <div class="w-full md:w-3/4 md:pl-6">
+                        <div class="flex flex-col md:flex-row justify-between mb-4">
+                            <h3 class="font-semibold text-2xl mb-2 md:mb-0">
+                                <a href="https://github.com/Polese-e/HDC-Events" target="_blank"
+                                    class="hover:text-cyan-400 transition duration-300">
+                                    HDC Events
+                                </a>
+                                <span class="text-sm text-gray-400 italic">
+                                    (finalizado em 2024)
+                                </span>
+                            </h3>
+                            <div class="flex flex-wrap gap-2">
+                                <a href="https://www.php.net/docs.php" target="_blank" rel="noopener noreferrer"
+                                    class="bg-indigo-400 text-indigo-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-indigo-500 hover:text-white hover:scale-110 transition duration-300">
+                                    PHP
+                                </a>
+                                <a href="https://laravel.com/docs" target="_blank" rel="noopener noreferrer"
+                                    class="bg-red-400 text-red-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-red-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Laravel
+                                </a>
+                                <a href="https://laravel.com/docs/blade" target="_blank" rel="noopener noreferrer"
+                                    class="bg-pink-400 text-pink-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-pink-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Blade
+                                </a>
+                                <a href="https://tailwindcss.com/docs" target="_blank" rel="noopener noreferrer"
+                                    class="bg-cyan-400 text-cyan-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-cyan-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Tailwind
+                                </a>
+                                <a href="https://jetstream.laravel.com/" target="_blank" rel="noopener noreferrer"
+                                    class="bg-sky-400 text-sky-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-sky-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Jetstream
+                                </a>
+                                <a href="https://dev.mysql.com/doc/" target="_blank" rel="noopener noreferrer"
+                                    class="bg-blue-400 text-blue-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-blue-500 hover:text-white hover:scale-110 transition duration-300">
+                                    MySQL
+                                </a>
+                            </div>
+                        </div>
+                        <p class="leading-7 text-gray-300">
+                            HDC Events é um site para gestão de eventos que permite registrar, visualizar, editar e
+                            excluir eventos. Inclui também funcionalidades de autenticação de usuário e filtros de busca
+                            para facilitar a organização e o acesso a eventos específicos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 4 -->
+            <div class="mt-5">
+                <div
+                    class="bg-slate-800 rounded-lg p-6 flex flex-col md:flex-row items-center hover:shadow-xl hover:scale-105 transition-transform duration-300"
+                    data-aos="zoom-in">
+                    <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                        <a href="https://github.com/Polese-e/kabum-desktop-scraper" target="_blank">
+                            <img src="../img/kabum-desktop-scraper.png" alt="Kabum Desktop Scraper"
+                                class="rounded-lg shadow-lg hover:scale-110 hover:shadow-2xl transition-transform duration-500" />
+                        </a>
+                    </div>
+                    <div class="w-full md:w-3/4 md:pl-6">
+                        <div class="flex flex-col md:flex-row justify-between mb-4">
+                            <h3 class="font-semibold text-2xl mb-2 md:mb-0">
+                                <a href="https://github.com/Polese-e/kabum-desktop-scraper" target="_blank"
+                                    class="hover:text-cyan-400 transition duration-300">
+                                    Kabum Desktop Scraper
+                                </a>
+                                <span class="text-sm text-gray-400 italic">
+                                    (finalizado em 2024)
+                                </span>
+                            </h3>
+                            <div class="flex flex-wrap gap-2">
+                                <a href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer"
+                                    class="bg-green-400 text-green-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-green-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Python
+                                </a>
+                                <a href="https://www.selenium.dev/documentation/en/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="bg-emerald-400 text-emerald-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-emerald-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Selenium
+                                </a>
+                                <a href="https://openpyxl.readthedocs.io/en/stable/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="bg-lime-400 text-lime-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-lime-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Openpyxl
+                                </a>
+                            </div>
+                        </div>
+                        <p class="leading-7 text-gray-300">
+                            Kabum Desktop Scraper é um script que automatiza a coleta de dados de desktops do site
+                            Kabum. Utiliza Selenium para scraping e Openpyxl para gerenciamento de dados, facilitando
+                            análises de mercado e comparações de preços eficientes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 5 -->
+            <div class="mt-5">
+                <div
+                    class="bg-slate-800 rounded-lg p-6 flex flex-col md:flex-row items-center hover:shadow-xl hover:scale-105 transition-transform duration-300"
+                    data-aos="zoom-in">
+                    <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                        <a href="https://github.com/Polese-e/accounting-automation" target="_blank">
+                            <img src="../img/accounting-automation.png" alt="Accounting Automation"
+                                class="rounded-lg shadow-lg hover:scale-110 hover:shadow-2xl transition-transform duration-500" />
+                        </a>
+                    </div>
+                    <div class="w-full md:w-3/4 md:pl-6">
+                        <div class="flex flex-col md:flex-row justify-between mb-4">
+                            <h3 class="font-semibold text-2xl mb-2 md:mb-0">
+                                <a href="https://github.com/Polese-e/accounting-automation" target="_blank"
+                                    class="hover:text-cyan-400 transition duration-300">
+                                    Accounting Automation
+                                </a>
+                                <span class="text-sm text-gray-400 italic">
+                                    (finalizado em 2024)
+                                </span>
+                            </h3>
+                            <div class="flex flex-wrap gap-2">
+                                <a href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer"
+                                    class="bg-green-400 text-green-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-green-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Python
+                                </a>
+                                <a href="https://www.selenium.dev/documentation/en/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="bg-emerald-400 text-emerald-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-emerald-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Selenium
+                                </a>
+                                <a href="https://openpyxl.readthedocs.io/en/stable/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="bg-lime-400 text-lime-900 rounded-md px-2 py-1 font-bold text-xs inline-flex items-center justify-center hover:bg-lime-500 hover:text-white hover:scale-110 transition duration-300">
+                                    Openpyxl
+                                </a>
+                            </div>
+                        </div>
+                        <p class="leading-7 text-gray-300">
+                            Accounting Automation é um script que automatiza o processo de entrada de dados de empresas
+                            em um portal de contabilidade. Utiliza dados de uma planilha Excel para preencher e submeter
+                            formulários no site, simplificando operações contábeis com eficiência e precisão.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mx-auto max-w-screen-lg py-6">
+        <div class="border-t border-gray-700 text-gray-400 pt-6 text-center">
+            © Copyright 2024. Construindo com ☕ e dedicação.
+        </div>
+    </footer>
+
+    <!-- Biblioteca AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- JavaScript personalizado -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>
